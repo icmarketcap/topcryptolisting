@@ -1,5 +1,5 @@
 {
-  "name": "icmarketcap",
+  "name": "test2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,14 +8,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.1.3",
-    "coingecko-api": "^1.0.10",
-    "next": "^12.0.8",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/node": "17.0.8",
+    "@types/react": "17.0.38",
     "eslint": "8.6.0",
-    "eslint-config-next": "12.0.8"
+    "eslint-config-next": "12.0.8",
+    "typescript": "4.5.4"
   }
 }
