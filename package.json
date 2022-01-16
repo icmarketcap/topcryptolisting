@@ -5,11 +5,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
     "export": "next export"
-=======
-    "export": "next export" 
->>>>>>> 9f6cd05ceb500b42d04c2121f10f160e2989993f
+
+
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
