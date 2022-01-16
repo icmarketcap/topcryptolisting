@@ -40,12 +40,7 @@ export default function Home(props) {
           {data.map(coin => (
             <tr key={coin.id}>
               <td>
-                <img
-                  src={coin.image}
-                  style={{ width: 25, height: 25, marginRight: 10 }}
-                />
-
-                {coin.symbol.toUpperCase()}
+               {coin.symbol.toUpperCase()}
               </td>
 
               <td>
