@@ -40,14 +40,8 @@ export default function Home(props) {
           {data.map(coin => (
             <tr key={coin.id}>
               <td>
-<<<<<<< HEAD
                {coin.symbol.toUpperCase()}
-=======
-                <img src={coin.image} style={{width: 25, height: 25, marginRight: 10}} />
-                {coin.symbol.toUpperCase()}
->>>>>>> 9f6cd05ceb500b42d04c2121f10f160e2989993f
               </td>
-
               <td>
                 <span
                   className={coin.price_change_percentage_24h > 0 ? (
