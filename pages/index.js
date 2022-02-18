@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import styles from '../styles/style.css'
 import CoinGecko from 'coingecko-api';
 const coinGeckoClient = new CoinGecko();
 
@@ -29,7 +30,24 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2366281900785792" crossorigin="anonymous"></script>
       </Head>
-      <h1>IC MarketCap</h1>
+      
+      <header>
+        <h1>IC MarketCap</h1>
+        <h1 class="logo">Logo</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
+
       <table className='table'>
            <tr>
           <th>Symbol</th>
